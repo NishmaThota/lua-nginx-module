@@ -1,1 +1,11 @@
-*.t linguist-language=Text
+* -text
+
+*.c     -text
+*.h     -text
+*.lua   -text
+*.t     -text
+configure -text
+Makefile -text
+
+*.tar binary
+*.gz  binary
