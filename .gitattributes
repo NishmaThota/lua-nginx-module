@@ -1,11 +1,21 @@
-* -text
+* text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
 
-*.c     -text
-*.h     -text
-*.lua   -text
-*.t     -text
-configure -text
-Makefile -text
+# -------------------------
+# C / Lua source
+# -------------------------
+*.c     text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+*.h     text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+*.lua   text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+*.t     text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+
+configure text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+Makefile text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+*.mk     text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+*.sh     text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+
+*.md     text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
+*.txt    text git-encoding=utf-8 zos-working-tree-encoding=ibm-1047
 
 *.tar binary
 *.gz  binary
+*.tgz binary
